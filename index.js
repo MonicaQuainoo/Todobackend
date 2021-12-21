@@ -104,5 +104,3 @@ app.delete("/todos/:id", async (req, res) => {
 app.listen(port, () => {
   console.log(`Todo server running at ${port}`);
 });
-
-http://localhost:9000/create
